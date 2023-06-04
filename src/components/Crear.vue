@@ -78,7 +78,7 @@ export default {
   methods: {
     agregarRegistro() {
       axios
-        .post("http://localhost:5005/api/v1/users", {
+        .post("http://localhost:5005/api/v1/users/", {
           user_name: this.usuario.user_name,
           user_lastname: this.usuario.user_lastname,
           user_email: this.usuario.user_email,
